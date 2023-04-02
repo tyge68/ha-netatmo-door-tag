@@ -1,0 +1,21 @@
+{
+  "domain": "netatmo_door_tag",
+  "name": "Netatmo Door Tag",
+  "version": "0.0.1",
+  "config_flow": false,
+  "documentation": "https://www.home-assistant.io/integrations/netatmo_door_tag",
+  "requirements": [
+    "dataclasses-json",
+    "aiofiles"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [
+    "application_credentials"
+  ],
+  "codeowners": [
+    "@tyge68"
+  ],
+  "iot_class": "cloud_polling"
+}
