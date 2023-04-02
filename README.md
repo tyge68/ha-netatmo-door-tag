@@ -3,8 +3,9 @@ Copy the files in your config/custom_components/netatmo_door_tag.
 
 # GENERATE TOKEN
 
-Create an app on your Netatmo developer portal, then create an app token with 
-permissions to read camera etc.. you can test your token in the portal to see if it has enough permissions to find the Netatmo Door Tags.
+Create an app on your Netatmo [developer](https://dev.netatmo.com/apps/) portal, then create an app token with 
+permissions to read camera etc.. you can [test](https://dev.netatmo.com/apidocumentation/control#homesdata) your token in the portal to see if it has enough permissions to find the Netatmo Door Tags.
+
 
 Store the token and refresh token in the file `config/.storage/netatmo_auth.json` of your home assistant.
 
